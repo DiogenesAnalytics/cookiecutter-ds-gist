@@ -1,5 +1,5 @@
 # About
-{{cookiecutter.description}}
+{{ cookiecutter.description }}
 
 ## Make
 Here we will document the different `make` commands defined in the `Makefile`.
