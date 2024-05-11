@@ -19,12 +19,11 @@
 
 # make cli args
 DCTNR := $(notdir $(PWD))
-INTDR := notebooks
 PSECS := 5
 
 # notebook-related variables
 CURRENTDIR := $(PWD)
-NOTEBOOKS  := $(shell find ${INTDR} -name "*.ipynb" -not -path "*/.ipynb_*/*")
+NOTEBOOKS  := $(shell find ${CURRENTDIR} -name "*.ipynb")
 
 # docker-related variables
 JPTCTNR = jupyter.${DCTNR}
