@@ -8,7 +8,7 @@ The following `Docker` command can be executed to use this *cookiecutter*
 template:
 ```
 docker run --rm \
-           -v $PWD:/home/jovyan/
+           -v $PWD:/home/jovyan/ \
            -it \
              ghcr.io/diogenesanalytics/analytics-notebook:master \
                cookiecutter \
