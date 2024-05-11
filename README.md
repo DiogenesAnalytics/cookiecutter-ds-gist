@@ -1,5 +1,19 @@
 # About
-{{ cookiecutter.description }}
+*GIST* version of the
+[cookiecutter-ds](https://github.com/DiogenesAnalytics/cookiecutter-ds)
+template.
+
+## Usage
+The following `Docker` command can be executed to use this *cookiecutter*
+template:
+```
+docker run --rm \
+           -v $PWD:/home/jovyan/
+           -it \
+             ghcr.io/diogenesanalytics/analytics-notebook:master \
+               cookiecutter \
+               gh:diogenesanalytics/cookiecutter-ds-gist
+```
 
 ## Make
 Here we will document the different `make` commands defined in the `Makefile`.
